@@ -38,6 +38,10 @@ killall SystemUIServer
 
 The above Cmds will create Screenshots directory on your Desktop and start saving them there.
 
+<!--
+<br /><br />
+-->
+
 ## Finder
 
 **Keyboard navigation**
@@ -52,7 +56,6 @@ In Finder you can select files with your arrow keys as expected.
 **Hide/show sidebar**
 
 To toggle display of the left sidebar in Finder window use `Cmd+Alt+S`.
-
 
 ## Dock
 
@@ -77,17 +80,19 @@ You should also look at “Show indicators for open applications” on the same 
 
 This setting will draw a dot next to the icons of open applications.
 
+<!--
+<br /><br /><br />
+-->
 
-## Navigate with keyboard to all elements of the window
+## Navigate with keyboard to all window elements
 
 By default you will not be able to reach certain elements of the interface with your keyboard.
 
-You can force all elements of the interface to be reachable this way by adjusting a setting in Keyboard preferences.
+You can force all elements of the interface to be accessible.
 
 * Use Spotlight to open Keyboard preferences
 * Go to “Shortcuts” tab
 * Switch “Full Keyboard Access” to “All controls”
-
 
 ## Other tips
 
