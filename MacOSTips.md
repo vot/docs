@@ -1,4 +1,4 @@
-# Mac OS Tips
+# macOS Tips
 
 ## Spotlight
 
@@ -18,6 +18,7 @@ Just start adding numbers together and Spotlight will show you the result.
 
 Type “$1300” or “12 pounds” in Spotlight to see automatic unit conversion.
 
+
 ## Taking screenshots
 
 * `Shift+Cmd+3` for full desktop
@@ -28,7 +29,7 @@ These screenshots will be saved as png files on your desktop.
 
 **Setting custom directory for screenshots**
 
-Use Spotlight to open Terminal
+Open Terminal
 
 ```
 mkdir $HOME/Desktop/Screenshots
@@ -38,9 +39,19 @@ killall SystemUIServer
 
 The above commands will create Screenshots directory on your Desktop and start saving them there.
 
-<!--
 <br /><br />
--->
+
+
+## Recording your screen
+
+* Open QuickTime Player
+* Dismiss the initial window that prompts you to open a file (click "Done")
+* While the application is still open select File > New screen recording (`Ctrl+Cmd+N`) in the menu bar
+* In the "Screen Recording" window click the red button and follow instructions
+* You can record your entire screen or just a selected area
+* After you're done click on the "stop" icon in the menu bar
+* If you're happy with your recording save it or export to another format
+
 
 ## Finder
 
@@ -57,6 +68,7 @@ In Finder you can select files with your arrow keys as expected.
 
 To toggle display of the left sidebar in Finder window use `Cmd+Alt+S`.
 
+
 ## Dock
 
 **Hide/show Dock**
@@ -65,25 +77,25 @@ To toggle display of the Dock use `Cmd+Alt+D`.
 
 **Insert a blank spacer into Dock**
 
-Use Spotlight to open Terminal
+Open Terminal
 
 ```
 defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="spacer-tile";}'
 killall Dock
 ```
 
+<br /><br />
+
+
 ## Make applications to always minimise to Dock
 
-* Use Spotlight to open Dock preferences
+* Open Dock preferences (System Preferences > Dock)
 * Select “Minimize windows into application icon”
 
 You should also look at “Show indicators for open applications” on the same screen.
 
 This setting will draw a dot next to the icons of open applications.
 
-<!--
-<br /><br /><br />
--->
 
 ## Navigate with keyboard to all window elements
 
@@ -91,11 +103,12 @@ By default you will not be able to reach certain elements of the interface with 
 
 You can force all elements of the interface to be accessible.
 
-* Use Spotlight to open Keyboard preferences
+* Open Keyboard preferences (System Preferences > Keyboard)
 * Go to “Shortcuts” tab
 * Switch “Full Keyboard Access” to “All controls”
 
-## Other tips
+
+## Quick tips
 
 * You can preview most document types by selecting their icon and pressing `Space`.
 * Whenever you need to type an accented character you can hold down the appropriate letter. A list of relevant options will pop up.
@@ -106,13 +119,22 @@ You can force all elements of the interface to be accessible.
 * You can use Preview to crop your images. Select the area you want and press `Cmd+K` to crop. You’ll see “edited” next to the file name in the title bar. Press `Cmd+S` to save the modified version.
 * You can close current window with `Cmd+W`. To close the whole application press `Cmd+Q`.
 * You can enable “Do not disturb” mode for notifications by clicking on notifications icon in the menu bar while holding `Alt` key down.
-* You can use Quick Time to record your screen.
+
+<br />
 
 ## Modifier keys
 
 The following are the modifier keys on Macs with alternative labels next to them. These symbols are used interchangably.
 
-* `⌘` = `Cmd` = `Cmd`
+* `⌘` = `Cmd` = `Command`
 * `⌥` = `Alt` = `Option`
-* `Ctrl` = `Control`
+* `^` = `Ctrl` = `Control`
 * `⇧` = `Shift`
+
+<br />
+
+## About this document
+
+This is version 1 of the file.
+
+The newest version can be found at https://github.com/vot/docs.
