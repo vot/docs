@@ -10,7 +10,7 @@ Hit `Cmd+Space` on your keyboard or click on magnifying glass icon in the menu b
 
 **Calculator**
 
-You can perform basic maths operations right in Spotlight.
+You can perform basic mathematical operations right in Spotlight.
 
 Just start adding numbers together and Spotlight will show you the result.
 
@@ -28,7 +28,7 @@ These screenshots will be saved as png files on your desktop.
 
 **Setting custom directory for screenshots**
 
-Open Terminal
+Use Spotlight to open Terminal
 
 ```
 mkdir $HOME/Desktop/Screenshots
@@ -36,7 +36,7 @@ defaults write com.apple.screencapture location $HOME/Desktop/Screenshots
 killall SystemUIServer
 ```
 
-The above Cmds will create Screenshots directory on your Desktop and start saving them there.
+The above commands will create Screenshots directory on your Desktop and start saving them there.
 
 <!--
 <br /><br />
@@ -65,7 +65,8 @@ To toggle display of the Dock use `Cmd+Alt+D`.
 
 **Insert a blank spacer into Dock**
 
-Open Terminal
+Use Spotlight to open Terminal
+
 ```
 defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="spacer-tile";}'
 killall Dock
