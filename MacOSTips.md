@@ -37,7 +37,7 @@ defaults write com.apple.screencapture location $HOME/Desktop/Screenshots
 killall SystemUIServer
 ```
 
-The above commands will create Screenshots directory on your Desktop and start saving them there.
+The above commands will create Screenshots directory on your Desktop and set it as a target location for new screenshots.
 
 <br /><br />
 
@@ -50,7 +50,7 @@ The above commands will create Screenshots directory on your Desktop and start s
 * In the "Screen Recording" window click the red button and follow instructions
 * You can record your entire screen or just a selected area
 * After you're done click on the "stop" icon in the menu bar
-* If you're happy with your recording save it or export to another format
+* If you're happy with your recording save it or export to another format.
 
 
 ## Finder
@@ -59,10 +59,11 @@ The above commands will create Screenshots directory on your Desktop and start s
 
 In Finder you can select files with your arrow keys as expected.
 
-* Hitting `Enter` (`Return`) will trigger a file rename process.
-* To step into a directory press `Cmd+Down` arrow.
-* To go a directory up press `Cmd+Up` arrow.
+* `Enter` (`Return`) will trigger a file rename process.
+* `Cmd+Down arrow` Step into selected directory or open selected file.
+* `Cmd+Up arrow` To go one level up in directory tree.
 * To switch between the views you can use `Cmd+1` (as Icons), `Cmd+2` (as List), `Cmd+3` (as Columns), `Cmd+4` (as Cover Flow).
+* `Space` will display the currently selected item in a QuickLook window.
 
 **Hide/show sidebar**
 
@@ -115,7 +116,7 @@ You can force all elements of the interface to be accessible.
 * To switch audio output press `Alt` when clicking on volume icon in menu bar. The same thing works to view more details about WiFi or Bluetooth.
 * To adjust volume in smaller increments hold `Shift+Alt` as you hit the `Volume Up/Down` keys. This works for brightness too.
 * In Safari you can press `Control` key, then double-click inside the video to see the "Enter Picture-in-Picture" option.
-* `Control+ Shift+Power/Eject` will put your Mac to sleep.
+* `Control+Shift+Power/Eject` will put your Mac to sleep.
 * You can use Preview to crop your images. Select the area you want and press `Cmd+K` to crop. You’ll see “edited” next to the file name in the title bar. Press `Cmd+S` to save the modified version.
 * You can close current window with `Cmd+W`. To close the whole application press `Cmd+Q`.
 * You can enable “Do not disturb” mode for notifications by clicking on notifications icon in the menu bar while holding `Alt` key down.
@@ -135,6 +136,10 @@ The following are the modifier keys on Macs with alternative labels next to them
 
 ## About this document
 
-This is version 1 of the file.
+**Version 2 (13th November 2018)**
 
-The newest version can be found at https://github.com/vot/docs.
+License: [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en_US)
+
+
+The newest version of this file can be downloaded from [github.com/vot/docs](https://github.com/vot/docs/raw/master/MacOSTips.pdf).
+
