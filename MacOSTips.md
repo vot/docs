@@ -85,7 +85,7 @@ defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="spacer-t
 killall Dock
 ```
 
-<br /><br />
+<br />
 
 
 ## Make applications to always minimise to Dock
@@ -134,9 +134,25 @@ The following are the modifier keys on Macs with alternative labels next to them
 
 <br />
 
+## Muting the startup chime
+
+Open Terminal. Both muting and restoring the sound require administrator privileges.
+
+Please be aware of the `sudo` prefix - you should always be careful when you see it as this grants full privileges to the command you're executing.
+
+**To mute the startup chime**
+
+```
+sudo nvram SystemAudioVolume=%80
+```
+
+**To restore the startup chime:**
+```
+sudo nvram -d SystemAudioVolume
+```
 ## About this document
 
-**Version 2 (13th November 2018)**
+**Version 3 (15th November 2018)**
 
 License: [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en_US)
 
